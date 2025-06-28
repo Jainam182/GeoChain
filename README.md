@@ -1,6 +1,4 @@
 
-
-````markdown
 # 🔍 Geospatial Workflow Automation with LLMs (Bharatiya Antariksh Hackathon - PS-4)
 
 This project is developed for **Problem Statement 4 (PS-4)** of the **Bharatiya Antariksh Hackathon 2025**, with a focus on automating complex geospatial analysis tasks using Chain-of-Thought (CoT) reasoning powered by LLMs and GIS toolchains like **GDAL** and **WhiteboxTools**.
