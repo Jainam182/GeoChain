@@ -35,8 +35,8 @@ Make sure you have the following installed:
 
 ### 2. Files Description
 
-| File | Description |
-|------|-------------|
+| File     | Description |
+|----------|-------------|
 | `app.py` | Uses **Gemini AI** to generate Chain-of-Thought workflows + GIS pipelines. Tested and works well for most PS-4 cases. |
 | `app2.py` | Reserved for **future expansion** — may include advanced RAG support or elevation surface analysis. |
 | `app3.py` | Uses **Groq API** with LLaMA/Mistral and currently provides ~90–95% accurate responses for PS-4-type queries. Highly optimized for performance and logic clarity. |
