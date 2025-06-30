@@ -1,0 +1,17 @@
+GDAL (Geospatial Data Abstraction Library) is an open-source library for reading and writing raster and vector geospatial data formats.
+
+Key GDAL commands:
+- gdalinfo: Shows metadata of raster files.
+- gdal_translate: Converts raster data between formats.
+- gdalwarp: Warps and reprojects raster data.
+
+QGIS is a free and open-source desktop GIS application that uses GDAL/OGR for raster and vector data processing.
+
+QGIS integrates GDAL by using it to read/write data formats like GeoTIFF, ESRI Shapefile, and PostGIS.
+
+Example workflow:
+1. Use gdal_translate to convert GeoTIFFs.
+2. Load the output into QGIS for visualization or further processing.
+
+Common issue:
+- Missing .dll files can cause GDAL to fail in QGIS on Windows. Ensure that GDAL binaries are correctly added to PATH.
