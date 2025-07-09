@@ -35,9 +35,9 @@ Make sure you have the following installed:
 
 | File     | Description |
 |----------|-------------|
-| `app.py` | Uses **Gemini AI** to generate Chain-of-Thought workflows + GIS pipelines. Tested and works well for most PS-4 cases. |
-| `app2.py` | Reserved for **future expansion** — may include advanced RAG support or elevation surface analysis. |
-| `app3.py` | Uses **Groq API** with LLaMA/Mistral and currently provides ~90–95% accurate responses for PS-4-type queries. Highly optimized for performance and logic clarity. |
+| `app.py` | Uses **Groq Api** to generate Chain-of-Thought workflows + GIS pipelines. Tested and currently provides 95% accuracy |
+| `app2.py` | Reserved for **future expansion** — To include RAG support for better reasoning and workflow generation. |
+| `app3.py` | Uses **Groq Api** with deepseek model. Highly optimized for performance and logic clarity. |
 
 ---
 
@@ -55,7 +55,7 @@ or
 streamlit run app3.py
 ```
 
-Make sure to add your API keys in the appropriate sections (Gemini, Groq).
+Make sure to add your API keys in the appropriate sections (Groq).
 
 ---
 
@@ -72,7 +72,7 @@ Make sure to add your API keys in the appropriate sections (Gemini, Groq).
 ## 📁 Directory Structure
 
 ```plaintext
-├── app.py                 # Gemini-based AI workflow generator
+├── app.py                 # Groq-based AI workflow generator with Gdal+Whitebox
 ├── app2.py                # In-development module
 ├── app3.py                # Groq-based workflow logic (95% accuracy)
 ├── LICENSE                # MIT License
