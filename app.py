@@ -6,7 +6,7 @@ from groq import Groq
 # --- Configure Groq Client ---
 client = Groq(
     base_url="https://api.groq.com",
-    api_key="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", # Or replace with your key: "your-groq-api-key"
+    api_key="YOUR API KEY", # Or replace with your key: "your-groq-api-key"
 )
 
 # Custom CSS for Space/ISRO Theme
