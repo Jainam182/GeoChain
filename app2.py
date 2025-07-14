@@ -15,7 +15,7 @@ from langchain.chains import RetrievalQA
 from langchain.llms import GooglePalm
 
 # --- Configure Gemini API ---
-genai.configure(api_key="AIzaSyBmjggCiCz04mByKiadG4I4h2xICqLdtuM")
+genai.configure(api_key="Your Api Key")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 # --- RAG Setup ---
