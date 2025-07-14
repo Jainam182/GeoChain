@@ -8,7 +8,7 @@ from openai import OpenAI
 # --- Configure Groq Client ---
 client = OpenAI(
     base_url="https://api.groq.com/openai/v1",
-    api_key="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", # Or replace with your key: "your-groq-api-key"
+    api_key="your_api_key", # Or replace with your key: "your-groq-api-key"
 )
 response = client.chat.completions.create(
     model="deepseek-r1-distill-llama-70b",  # or another Groq-supported model
